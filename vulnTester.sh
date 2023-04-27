@@ -26,7 +26,7 @@
 
 
 if [ ${#1} -eq 0 ];then
-	target_url='http://5.26.117.127' #for example
+	target_url='http://127.0.0.1/' #for example
 else
 	target_url="$1"
 	proto=${target_url:0:4}''
